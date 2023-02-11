@@ -1,0 +1,9 @@
+/* Config */
+@import 'config/variables'; // Bootstrap overrides
+@import 'config/utilities'; // not important
+@import 'config/external'; // this just has @import '~bootstrap/scss/bootstrap'; in it
+
+/* Components */
+@import 'components/custom_styles';
+@import 'components/gsapAnimation_styles.scss';
+@import 'components/main';

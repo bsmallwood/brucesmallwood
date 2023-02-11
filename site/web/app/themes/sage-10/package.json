@@ -24,6 +24,7 @@
     "@roots/sage": "6.9.1"
   },
   "dependencies": {
+    "@popperjs/core": "^2.6.0",
     "bootstrap": "^5.2.3"
   }
 }

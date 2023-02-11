@@ -1,0 +1,48 @@
+/* stylelint-disable */
+
+/* stylelint-enable */
+
+$blue: #3C586F;
+$red: #9A2137;
+$gray: #444243;
+$light-gray: #F6F6F6;
+
+$primary:   $blue;
+$secondary: $red;
+$light:     $light-gray;
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+);
+
+$paragraph-margin-bottom:   1rem !default;
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+) !default;
+// scss-docs-end container-max-widths
+
+$border-radius: 5px !default;
+
+
+$body-color:            $gray;
+$font-weight-lighter:   lighter !default;
+$font-weight-light:     300 !default;
+$font-weight-normal:    400 !default;
+$font-weight-medium:    500 !default;
+$font-weight-semibold:  600 !default;
+$font-weight-bold:      700 !default;
+$font-weight-bolder:    bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+$btn-padding-y:     15px;
+$btn-padding-x:     20px;
+$btn-font-size:     20px;
+$btn-font-weight:   $font-weight-semibold;
